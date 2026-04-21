@@ -1,1 +1,1 @@
-# homelab-auth-service
+# Homelab Auth Service
