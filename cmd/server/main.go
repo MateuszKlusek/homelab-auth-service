@@ -15,7 +15,6 @@ func main() {
 
 func verifyHandler(w http.ResponseWriter, r *http.Request) {
 	log.Println("Time from verifyHandler: ", time.Now().Format(time.RFC3339))
-	log.Println(r.Response.Header)
 
 	// temp to test middleware in k3s
 	w.Header().Set("X-User-ID", "777")
