@@ -1,0 +1,12 @@
+shell: /bin/zsh
+userCommandsExec:
+  - command: make build
+    relativePath: ./
+    label: build docker image
+    runner: ''
+fzfConfig:
+  windowHeight: 50%
+  previewWindow:
+    direction: right
+    percentage: 50%
+root: /Users/mateuszklusek/vault/portfolio/homelab-auth-service
