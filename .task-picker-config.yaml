@@ -1,8 +1,8 @@
 shell: /bin/zsh
 userCommandsExec:
-  - command: make build
+  - command: make build-and-push
     relativePath: ./
-    label: build docker image
+    label: build and push image to homelab registry
     runner: ''
 fzfConfig:
   windowHeight: 50%
